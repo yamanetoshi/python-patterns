@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""http://en.wikibooks.org/wiki/Computer_Science_Design_Patterns/Bridge_Pattern#Python"""
+"""http://goo.gl/duA0sW"""
 
 
 # ConcreteImplementor 1/2
@@ -50,6 +50,6 @@ def main():
 if __name__ == '__main__':
     main()
 
-### OUTPUT ###
+# OUTPUT #
 # API1.circle at 1:2 radius 7.5
 # API2.circle at 5:7 radius 27.5

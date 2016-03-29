@@ -88,7 +88,7 @@ def main():
 if __name__ == '__main__':
     main()
 
-### OUTPUT ###
+# OUTPUT #
 # Setting Data 1 = 10
 # DecimalViewer: Subject Data 1 has data 10
 # HexViewer: Subject Data 1 has data 0xa

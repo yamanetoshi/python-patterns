@@ -43,7 +43,8 @@ if __name__ == '__main__':
     strat1.execute()
     strat2.execute()
 
-### OUTPUT ###
+# OUTPUT #
+
 # Strategy Example 0
 # Strategy Example 1 from execute 1
 # Strategy Example 2 from execute 2

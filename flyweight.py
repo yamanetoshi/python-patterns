@@ -7,6 +7,7 @@ import weakref
 
 
 class FlyweightMeta(type):
+
     def __new__(mcs, name, parents, dct):
         """
 
@@ -107,7 +108,7 @@ if __name__ == '__main__':
     del cm3
     assert len(instances_pool) == 0
 
-### OUTPUT ###
+# OUTPUT #
 # (<Card: 9h>, <Card: 9h>)
 # (True, True)
 # (31903856, 31903856)

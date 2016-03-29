@@ -85,7 +85,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-### OUTPUT ###
+# OUTPUT #
 # jim got cartoon
 # jack got music
 # gee got movie

@@ -35,7 +35,7 @@ e, g = get_localizer(language="English"), get_localizer(language="Greek")
 for msgid in "dog parrot cat bear".split():
     print(e.get(msgid), g.get(msgid))
 
-### OUTPUT ###
+# OUTPUT #
 # dog σκύλος
 # parrot parrot
 # cat γάτα

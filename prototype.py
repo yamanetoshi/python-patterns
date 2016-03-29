@@ -48,5 +48,5 @@ def main():
 if __name__ == '__main__':
     main()
 
-### OUTPUT ###
+# OUTPUT #
 # [{'objectb': 'b-value'}, {'default': 'default'}, {'objecta': 'a-value'}]

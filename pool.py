@@ -54,7 +54,7 @@ def main():
 if __name__ == '__main__':
     main()
 
-### OUTPUT ###
+# OUTPUT #
 # Inside with: yam
 # Outside with: yam
 # Inside func: sam

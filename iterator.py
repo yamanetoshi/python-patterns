@@ -17,8 +17,14 @@ def count_to(count):
         yield number
 
 # Test the generator
-count_to_two = lambda: count_to(2)
-count_to_five = lambda: count_to(5)
+
+
+def count_to_two(): return count_to(2)
+
+
+def count_to_five(): return count_to(5)
+# count_to_two = lambda: count_to(2)
+# count_to_five = lambda: count_to(5)
 
 print('Counting to two...')
 for number in count_to_two():
@@ -32,7 +38,7 @@ for number in count_to_five():
 
 print()
 
-### OUTPUT ###
+# OUTPUT #
 # Counting to two...
 # one two
 # Counting to five...

@@ -5,13 +5,14 @@ import sys
 from io import StringIO
 from observer import Subject, Data, DecimalViewer, HexViewer
 
+from unittest.mock import patch
+
 if sys.version_info < (2, 7):
     import unittest2 as unittest
 
 else:
     import unittest
 
-from unittest.mock import patch
 
 class TestSubject(unittest.TestCase):
 
@@ -40,6 +41,7 @@ class TestSubject(unittest.TestCase):
         cls.s.detach(cls.hex_obs)
         cls.assertEqual(len(cls.s._observers), 0)
 
+
 class TestData(unittest.TestCase):
 
     @classmethod
@@ -47,13 +49,13 @@ class TestData(unittest.TestCase):
         cls.dec_obs = DecimalViewer()
         cls.hex_obs = HexViewer()
         cls.sub = Data('Data')
-        #inherited behavior already tested with TestSubject
+        # inherited behavior already tested with TestSubject
         cls.sub.attach(cls.dec_obs)
         cls.sub.attach(cls.hex_obs)
 
     def test_data_change_shall_notify_all_observers_once(cls):
         with patch.object(cls.dec_obs, 'update') as mock_dec_obs_update,\
-            patch.object(cls.hex_obs, 'update') as mock_hex_obs_update:
+                patch.object(cls.hex_obs, 'update') as mock_hex_obs_update:
             cls.sub.data = 10
             cls.assertEqual(mock_dec_obs_update.call_count, 1)
             cls.assertEqual(mock_hex_obs_update.call_count, 1)

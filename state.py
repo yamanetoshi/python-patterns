@@ -68,7 +68,7 @@ if __name__ == '__main__':
     for action in actions:
         action()
 
-### OUTPUT ###
+# OUTPUT #
 # Scanning... Station is 1380 AM
 # Scanning... Station is 1510 AM
 # Switching to FM

@@ -123,7 +123,7 @@ if __name__ == '__main__':
         tc.execute()
         tc.tearDown()
 
-### OUTPUT ###
+# OUTPUT #
 # Setting up the Test
 # Inserting the execution begin status in the Database
 # Executing the test

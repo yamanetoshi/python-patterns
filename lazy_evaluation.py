@@ -22,6 +22,7 @@ def lazy_property(fn):
 
 
 class Person(object):
+
     def __init__(self, name, occupation):
         self.name = name
         self.occupation = occupation
@@ -46,7 +47,7 @@ def main():
 if __name__ == '__main__':
     main()
 
-### OUTPUT ###
+# OUTPUT #
 # Name: Jhon    Occupation: Coder
 # Before we access `relatives`:
 # {'name': 'Jhon', 'occupation': 'Coder'}

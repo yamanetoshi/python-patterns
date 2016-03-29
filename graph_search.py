@@ -80,7 +80,7 @@ print(graph1.find_path('A', 'D'))
 print(graph1.find_all_path('A', 'D'))
 print(graph1.find_shortest_path('A', 'D'))
 
-### OUTPUT ###
+# OUTPUT #
 # ['A', 'B', 'C', 'D']
 # [['A', 'B', 'C', 'D'], ['A', 'B', 'D'], ['A', 'C', 'D']]
 # ['A', 'B', 'D']

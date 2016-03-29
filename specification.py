@@ -28,6 +28,7 @@ class Specification(object):
 
 
 class CompositeSpecification(Specification):
+
     @abstractmethod
     def is_satisfied_by(self, candidate):
         pass
@@ -110,7 +111,7 @@ if __name__ == '__main__':
     print(root_specification.is_satisfied_by(vasiliy))
 
 
-### OUTPUT ###
+# OUTPUT #
 # Specification
 # False
 # True

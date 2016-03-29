@@ -38,6 +38,8 @@ class Builder(object):
         raise NotImplementedError
 
 # Concrete Builder
+
+
 class BuilderHouse(Builder):
 
     def build_floor(self):
@@ -79,6 +81,6 @@ if __name__ == "__main__":
     building = director.get_building()
     print(building)
 
-### OUTPUT ###
+# OUTPUT #
 # Floor: One | Size: Big
 # Floor: More than One | Size: Small

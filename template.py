@@ -56,7 +56,7 @@ templates = [make_template(s, g, a)
 for template in templates:
     template()
 
-### OUTPUT ###
+# OUTPUT #
 # spam
 # ----------
 # eggs

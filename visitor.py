@@ -46,7 +46,7 @@ visitor.visit(a)
 visitor.visit(b)
 visitor.visit(c)
 
-### OUTPUT ###
+# OUTPUT #
 # generic_visit A
 # visit_B B
 # visit_B C

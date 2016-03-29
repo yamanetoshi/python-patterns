@@ -67,7 +67,7 @@ if __name__ == '__main__':
     testrunner = TestRunner()
     testrunner.runAll()
 
-### OUTPUT ###
+# OUTPUT #
 # ###### In Test 1 ######
 # Setting up
 # Running test

@@ -66,7 +66,7 @@ def main():
 if __name__ == '__main__':
     main()
 
-### OUTPUT ###
+# OUTPUT #
 # PRODUCT LIST:
 # (Fetching from Data Store)
 # cheese

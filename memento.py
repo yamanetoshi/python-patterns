@@ -57,6 +57,7 @@ class Transactional(object):
 
 
 class NumObj(object):
+
     def __init__(self, value):
         self.value = value
 
@@ -106,7 +107,7 @@ if __name__ == '__main__':
     print(num_obj)
 
 
-### OUTPUT ###
+# OUTPUT #
 # <NumObj: -1>
 # <NumObj: 0>
 # <NumObj: 1>
